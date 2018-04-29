@@ -1,0 +1,36 @@
+[user]
+    name = Alexander Lobtsov
+    email = alobtsov@docdoc.ru
+[core]
+	excludesfile = /Users/grevus/.gitignore_global
+    autocrlf = input
+    safecrlf = false
+	editor = vim
+	mergeoptions = --no-ff
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+[alias]
+	up = !(git stash && git pull --rebase >&2) | grep -v \"No local changes to save\" && git stash pop
+	in = "!git remote update -p; git log ..@{u}"
+	out = log @{u}..
+	st = status -sb
+    tl = !(git tag --sort "-v:refname") | (head -n 10)
+	ci = commit
+	co = checkout
+	br = branch
+	bra = branch -a
+	chp = cherry-pick
+	pr = pull --rebase
+	bl = blame -b -w
+	cia = commit --amend
+	lg = log --graph --pretty=format:\"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset\" --abbrev-commit
+	who = shortlog -s --
+    pushall = "!f(){ for i in `git remote`; do git push $i; done; };f"
+[push]
+	default = simple
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true

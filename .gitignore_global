@@ -1,0 +1,62 @@
+# Vim file#
+.*.sw[a-z]
+*.un~
+Session.vim
+settings.vim
+make.vim
+
+# Logs and databases #
+# ######################
+*.log
+*.sqlite
+
+# OS generated files #
+# ######################
+.DS_Store
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+#Linux
+.*
+!.gitignore
+!.gitattributes
+!.gitkeep
+!.travis.yml
+!.apishka.php
+!.bowerrc
+!.php_cs
+!.editorconfig
+*~
+
+# KDE
+.directory
+
+ehthumbs.db
+Icon?
+Thumbs.db
+vim.*
+make.*
+tags.*
+.idea
+.phpstrom.meta
+
+# Compiled source #
+# ###################
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Personal #
+# ##################
+test.php
+
+# Arch packages # 
+# #################
+!.SRCINFO
