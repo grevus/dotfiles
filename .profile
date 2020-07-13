@@ -36,7 +36,7 @@ alias climb="composer outdated --outdated"
 
 export EDITOR='vim'
 export SVN_EDITOR=/usr/bin/vim
-export PATH=$PATH:/opt/java/jre/bin/:${HOME}/.gem/ruby/2.4.0/bin:${HOME}/.composer/vendor/bin:${HOME}/.config/composer/vendor/bin
+export PATH=$PATH:/usr/local/go/bin:/Users/aleksandr.lobtsov/go/bin
 export PYTHONSTARTUP=/home/ereih/.pystartup
 
 export HISTFILESIZE=1000000
@@ -52,3 +52,5 @@ export PROMPT_COMMAND='history -a; printf "\033]0;%s@%s:%s\007" "${USER}" "${HOS
 source ~/.git-prompt.sh
 #source ~/.kubectl-completion
 #source ~/.minikube-completion
+
+[[ -s "/Users/aleksandr.lobtsov/.gvm/scripts/gvm" ]] && source "/Users/aleksandr.lobtsov/.gvm/scripts/gvm"

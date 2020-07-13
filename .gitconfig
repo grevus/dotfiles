@@ -1,8 +1,8 @@
 [user]
-    name = Alexander Lobtsov
-    email = alobtsov@docdoc.ru
+    name = Aleksandr Lobtsov
+    email = aleksandr.lobtsov@lamoda.ru
 [core]
-	excludesfile = /Users/grevus/.gitignore_global
+	excludesfile = /Users/aleksandr.lobtsov/.gitignore_global
     autocrlf = input
     safecrlf = false
 	editor = vim
@@ -34,3 +34,5 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	required = true
+[url "ssh://git@stash.lamoda.ru:7999"]
+	insteadOf = https://stash.lamoda.ru/scm

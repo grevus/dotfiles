@@ -1,1 +1,1 @@
-/Users/grevus/Dropbox/linux/.gvimrc
+./Dropbox/linux/.gvimrc

@@ -33,6 +33,7 @@ set -U HISTTIMEFORMAT '%d.%m.%y %T '
 
 set fish_greeting ""
 
-set -g theme_color_scheme "solarized-dark"
+set -g theme_color_scheme "darkula"
 set -g theme_date_format "+%m/%d %H:%M"
 set -g theme_display_cmd_duration no
+set -g fish_user_paths "/usr/local/opt/libxml2/bin" "/Users/aleksandr.lobtsov/go/bin" $fish_user_paths

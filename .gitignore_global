@@ -22,7 +22,6 @@ make.vim
 .Trashes
 
 #Linux
-.*
 !.gitignore
 !.gitattributes
 !.gitkeep
@@ -57,6 +56,6 @@ tags.*
 # ##################
 test.php
 
-# Arch packages # 
+# Arch packages #
 # #################
 !.SRCINFO
