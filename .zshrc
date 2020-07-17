@@ -112,6 +112,7 @@ source $ZSH/oh-my-zsh.sh
 
 export LANG=en_US.UTF-8
 export PATH=$HOME/go/bin:/usr/local/bin:$PATH
+export PATH=$HOME/Library/Python/3.7/bin:$PATH
 
 alias gst='git status'
 alias ga='git add'
